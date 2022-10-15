@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* Estilo para telas*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: #353437;
+    color: aliceblue;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu {
+    text-align: center;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: #53576b;
+    padding: 5px;
+}
+
+menu li {
+    background-color: #7a7b7c;
+    display: inline-block;
+    padding: 10px;
+}
+
+article {
+    width: 600px;
+    margin: auto;
+    display: block;
+}
